@@ -2800,6 +2800,45 @@
     <group>
         <name>drivers</name>
         <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_clock.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_clock.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_common.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_common.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_flash.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_flash.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_gpio.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_lpsci.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_lpsci.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_port.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_sim.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_sim.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_uart.c</name>
         </file>
         <file>

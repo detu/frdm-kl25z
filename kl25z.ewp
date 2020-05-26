@@ -220,7 +220,14 @@
                 <debug>1</debug>
                 <option>
                     <name>CCDefines</name>
-                    <state></state>
+                    <state>DEBUG</state>
+                    <state>CPU_MKL25Z128VLK4</state>
+                    <state>PRINTF_FLOAT_ENABLE=0</state>
+                    <state>SCANF_FLOAT_ENABLE=0</state>
+                    <state>PRINTF_ADVANCED_ENABLE=0</state>
+                    <state>SCANF_ADVANCED_ENABLE=0</state>
+                    <state>FRDM_KL25Z</state>
+                    <state>FREEDOM</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -345,7 +352,12 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state></state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\devices\MKL25Z4</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\CMSIS\Include</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\devices\MKL25Z4\cmsis_drivers</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\devices\MKL25Z4\drivers</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\devices\MKL25Z4\iar</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\devices\MKL25Z4\utilities</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -361,7 +373,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -370,7 +382,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -412,7 +424,7 @@
                 </option>
                 <option>
                     <name>IccCppInlineSemantics</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IccCmsis</name>
@@ -527,7 +539,7 @@
                 </option>
                 <option>
                     <name>ADefines</name>
-                    <state></state>
+                    <state>DEBUG</state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -768,11 +780,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>lnk0t.icf</state>
+                    <state>C:\Users\suwareka\Documents\frdm-kl25z\MKL25Z128xxx4_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -832,7 +844,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state></state>
+                    <state>__iar_program_start</state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1005,7 +1017,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>kl25z_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2137,6 +2149,45 @@
     </group>
     <group>
         <name>drivers</name>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_clock.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_clock.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_common.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_common.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_flash.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_flash.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_gpio.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_lpsci.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_lpsci.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_port.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_sim.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_sim.h</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\devices\MKL25Z4\drivers\fsl_uart.c</name>
         </file>
